@@ -79,11 +79,11 @@ xiaoyaliu/alist
 添加 schedule即可定时执行(此处cron使用UTC时区)
 ![](doc/定时执行.png)
 
-方案二 离线镜像
+###方案二 离线镜像
 使用Github Action下载docker离线镜像 https://github.com/wukongdaily/DockerTarBuilder
 
-方案三 使用一键脚本
+###方案三 使用一键脚本
 bash -c "$(curl -sSLf https://xy.ggbond.org/xy/docker_pull.sh)" -s 完整镜像名
 
-3. 去哪里找镜像
+### 去哪里找镜像
 https://docker.fxxk.dedyn.io/
